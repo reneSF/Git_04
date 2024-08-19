@@ -47,3 +47,17 @@ document.addEventListener('DOMContentLoaded', ( ) => {
     console.log('dom => carga todo')
     console.log(document.querySelector(h1))
 })
+
+
+
+
+ 
+const inputColor = document.getelemrntbyid('inputColor')
+const boton = document.getElementByboton('')
+
+
+boton.addEventListener('click', () =>{
+    textohexa.textcontent = inputColor.value
+    cardColor.style.backgroundColor = inputColor.
+    value
+})
